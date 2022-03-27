@@ -21,7 +21,7 @@ const fruits = {name1 : 'mango', name2 : 'coconut', name3 : 'apple', name4 : 'ja
 localStorage.setItem('item', json.stringify(fruits));
 
 If you want to get the items from fruits then use this formate 
-json.parse(localStorage.getItem(fruits));
+json.parse(localStorage.getItem('key name'));
 
-****(Most important thing that getItem give the data as string. So if you want do any arithmetic operation must convert the data from string )
+****(Most important thing that getItem give the data as string. So if you want do any arithmetic operation must convert the data from string. Must be give the key word inside the double citation symbol )
 */
